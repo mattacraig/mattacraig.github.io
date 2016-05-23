@@ -1,0 +1,107 @@
+// Global CSS goes here
+body {
+  background: $primary-bg;
+}
+
+.site-wrapper {
+  transition: $transition-duration transform;
+}
+
+.main-wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.container.ta-center,
+.container.ta-center a {
+  color: $secondary-text-color;
+}
+
+.tags {
+  color: $primary-text-color;
+  background: $cta-primary;
+  padding: .3rem .8rem;
+  border-radius: 5px;
+  font-size: 0.8rem; 
+}
+
+.container.ta-center h2 {
+  font-size: 2.5rem;
+}
+
+h3 a {
+  font-size: 1.8rem;
+}
+
+.container.ta-center a:hover {
+  color: $cta-primary;
+}
+
+.calls-to-action {
+  display: flex;
+  flex-direction: row;
+}
+
+.cta {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 50px;
+  transition: .3s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta:hover {
+  color: #fff;
+}
+
+.cta:hover .fa {
+  animation: bounce 1s ease-in-out;
+}
+
+.cta-primary {
+  background: $cta-primary;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.cta-secondary {
+  background: #333;
+}
+
+@media screen and(max-width: 450px) {
+  .row {
+    max-width: 85vw;
+  }
+
+  section p {
+    padding: 1rem 0;
+  }
+
+  .col h3 {
+    padding: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-.1rem);
+  }
+
+  50% {
+    transform: translateY(.2rem);
+  }
+
+  70% {
+    transform: translateY(-.2rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

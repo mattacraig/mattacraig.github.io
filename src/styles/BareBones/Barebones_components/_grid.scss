@@ -1,0 +1,158 @@
+// Layout/Grid
+.container {
+  max-width: $container-width;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+nav {
+  height: $nav-height;
+}
+
+.main-nav {
+  list-style: none;
+  align-items: center;
+  height: 100%;
+}
+
+.main-nav a {
+  padding: 1rem 1.5rem;
+}
+
+.row,
+.col,
+.main-nav {
+  display: inline-block;
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+
+.center,
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  max-width: 70vw;
+  flex-wrap: wrap;
+  height: auto;
+  margin: $default-margin auto;
+}
+
+.one-col,
+.two-col,
+.three-col,
+.four-col,
+.five-col,
+.six-col,
+.seven-col,
+.eight-col,
+.nine-col,
+.ten-col,
+.eleven-col,
+.twelve-col {
+  margin-right: $default-margin;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.one-col {
+  width: 7.833%;
+}
+
+.two-col {
+  width: 16.166%;
+}
+
+.three-col {
+  width: 24.25%;
+}
+
+.four-col {
+  width: 32.832%;
+}
+
+.five-col {
+  width: 41.165%;
+}
+
+.six-col {
+  width: 49.498%;
+}
+
+.seven-col {
+  width: 57.831%;
+}
+
+.eight-col {
+  width: 66.164%;
+}
+
+.nine-col {
+  width: 74.497%;
+} 
+
+.ten-col {
+  width: 82.83%;
+}
+
+.eleven-col {
+  width: 91.163%;
+}
+
+.twelve-col {
+  width: 100%;
+}
+
+// Grid Breakpoints
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 80rem;
+  }
+
+  .one-col,
+  .two-col,
+  .three-col,
+  .four-col,
+  .five-col,
+  .six-col,
+  .seven-col,
+  .eight-col,
+  .nine-col,
+  .ten-col,
+  .eleven-col {
+    width: 49%;
+    margin-bottom: $default-margin;
+    margin-right: $default-margin;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and(max-width: 700px) {
+  .one-col,
+  .two-col,
+  .three-col,
+  .four-col,
+  .five-col,
+  .six-col,
+  .seven-col,
+  .eight-col,
+  .nine-col,
+  .ten-col,
+  .eleven-col,
+  .twelve-col {
+    margin-right: 0;
+    width: 100%;
+  }
+}

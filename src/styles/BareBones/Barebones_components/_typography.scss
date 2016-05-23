@@ -1,0 +1,62 @@
+// Typography
+
+body {
+  font-family: $primary-font;
+  color: $primary-text-color;
+}
+
+a {
+  text-decoration: none;
+  font-size: $default-link-size;
+  color: $primary-text-color;
+  transition: $color-transition;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+.brand {
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: $default-h1-size;
+}
+
+h2 {
+  font-size: $default-h2-size;
+}
+
+h3 {
+  font-size: $default-h3-size;
+}
+
+h4 {
+  font-size: $default-h4-size;
+}
+
+h5 {
+  font-size: $default-h5-size;
+}
+
+h6 {
+  font-size: $default-h6-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: $default-heading-line-height;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: $default-text-size;
+  line-height: $default-text-line-height;
+  padding: 1rem;
+}

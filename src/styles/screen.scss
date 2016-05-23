@@ -1,0 +1,12 @@
+@import 'base/reset';
+@import 'BareBones/bbVariables';
+@import 'base/variables';
+@import 'BareBones/barebones';
+
+@import 'base/global';
+
+// Import Components
+@import 'components/header';
+@import 'components/projects'; 
+@import 'components/contact';
+@import 'components/footer';  

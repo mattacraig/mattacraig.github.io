@@ -1,0 +1,37 @@
+.contact {
+  padding-top: 4rem;
+  height: 50vh;
+}
+
+.contact h2 {
+  padding-bottom: 2rem;
+}
+
+.contact-links .fa {
+  display: inline-block;
+  padding-right: .5rem;
+}
+
+.contact-links li {
+  padding: 1rem 0;
+}
+
+.contact-links li a {
+  font-size: 1.8rem;
+}
+
+@media screen and(max-width: 700px) {
+  .contact-links li {
+    padding: .5rem 0;
+  }
+
+  .contact-links li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .contact-links li a {
+    font-size: 1rem;
+  }
+}

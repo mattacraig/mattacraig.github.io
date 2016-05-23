@@ -1,0 +1,22 @@
+footer {
+  background: #333;
+  color: $primary-text-color;
+  height: 10vh;
+  line-height: 10vh;
+}
+
+footer .fa {
+  color: tomato;
+}
+
+@media screen and(max-width: 700px) {
+  footer {
+    height: auto;
+    line-height: 1;
+    padding: 1rem 0;
+  }
+
+  footer small {
+    font-size: .7rem;
+  }
+}

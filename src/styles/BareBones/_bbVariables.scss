@@ -1,0 +1,29 @@
+// Typography
+$primary-font: 'Raleway', sans-serif;
+$default-h1-size: 2rem;
+$default-h2-size: 1.5rem;
+$default-h3-size: 1.17rem;
+$default-h4-size: 1rem;
+$default-h5-size: .83rem;
+$default-h6-size: .67rem;
+$default-text-size: $default-h4-size;
+$default-link-size: $default-h4-size;
+$default-heading-line-height: 3rem;
+$default-text-line-height: 1.5rem;
+
+
+// Colors
+$primary-text-color: #333;
+$link-hover-color: #add8e6;
+$primary-bg: #fff;
+
+
+// Transitions
+$transition-duration: .3s;
+$color-transition: $transition-duration color;
+$background-transition: $transition-duration background;
+
+
+$container-width: 80rem;
+$nav-height: 50px;
+$default-margin: 1%;

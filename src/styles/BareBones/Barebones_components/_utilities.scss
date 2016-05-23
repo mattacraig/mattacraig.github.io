@@ -1,0 +1,50 @@
+// Utilities
+.col-reverse {
+  order: 1;
+  margin-right: 0;
+  margin-left: $default-margin;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+
+.navbar li:first-child {
+  margin-right: auto;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $primary-bg;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.img-max-width {
+  max-width: 100%;
+} 
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
